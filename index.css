@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kanit:wght@500;700&display=swap');
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Inter', normal;
+  background-color: #F1F1F1;
+}
+
+button {
+  border: none;
+}
+
+
+.welcome {
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+
+.nav-key-logo {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+header img {
+  width: 15px;
+  height: 15px;
+}
+
+.nav-menu {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.nav-menu button{
+  font-family: 'Inter', normal;
+}
+
+.startButton {
+  background-color: #081E341F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 102px;
+  height: 38px;
+  border-radius: 100px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  justify-content: space-between;
+}
+
+.first-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-txt h1 {
+  margin: 0;
+  font-family: 'Kanit';
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.first-txt p {
+  padding-top: 32px;
+  margin-bottom: 0px;
+}
+
+.first-button button {
+  background-color: #712FFF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  width: 144px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.first-img {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 32px;
+  width: 100%;
+  max-width: 619px;
+  height: auto;
+}
+
+
+.second {
+  background-color: #E1DEE7;
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 32px;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.window h6{
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.window h1{
+  margin-top: 0px;
+  margin-bottom: 86px;
+  font-family: 'Kanit';
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.three-blocks {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.n {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.three-blocks img {
+  padding-top: 0px;
+  padding-bottom: 48px;
+  height: 64px;
+  width: 48.57px;
+}
+
+.three-blocks h2 {
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+.third {
+  padding: 100px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.third h1 {
+  margin: 0;
+  font-family: 'Kanit';
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.third p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.block-search {
+  display: flex;
+  flex-direction: row;
+}
+
+.block-searchh {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+  width: 100%;
+  max-width: 619px;
+  height: 50px;
+}
+
+.block-searchh img {
+  padding: 13px;
+}
+
+.search-input {
+  height: 22px;
+  border: none;
+}
+
+.findButton button {
+  display: flex;
+  background-color: #712FFF;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  height: 50px;;
+  border-radius: 100px;
+  margin-left: 32px;
+}
+
+.fourth {
+  background-color: #F1F1F1;
+  padding: 64px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 128px;
+}
+
+.fourth-content img {
+  width: 700px;
+  height: auto;
+} 
+
+.fourth-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.fourth-content2 h1 {
+  margin: 0;
+  font-family: 'Kanit', normal;
+  font-size: 48px;
+}
+
+.fourth-content2 p {
+  margin: 0;
+  font-family: 'Inter', normal;
+  font-size: 16px;
+}
+
+.upload-button {
+  padding: 16px 24px 16px 16px;
+  gap: 8px;
+  display: flex;
+  border-radius: 100px;
+  color: white;
+  background-color: #712FFF;
+  width: 114px;
+  height: 50px;
+}
+
+.last {
+  padding: 32px 80px;
+  border-radius: 32px 32px 0 0;
+  background-color: white;
+  font-family: 'Inter', normal;
+}
+
+.l-line {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.l-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.l-buttons button {
+  background-color: white;
+}
+
+.l-text {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: gray;
+}
+
+.nFactlorial {
+  font-family: 'Inter', normal;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nFactlorial button {
+  background-color: white;
+}
